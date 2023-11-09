@@ -1,0 +1,538 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: firsta;
+    src: url(./font1.css);
+}
+@font-face {
+    font-family: gameb;
+    src: url(./font2.css);
+}
+@font-face {
+    font-family: laptop;
+    src: url(./font3.css);
+}
+.full{
+  background-image: url(image/first\ image.webp);
+    width: 100%;
+    height: 542px;
+}
+.first{
+    width: 80%;
+    height: 12%;
+    background-color: black;
+    margin-left: 110px;
+    display: flex;
+    gap: 2vw;
+    position: fixed;
+    z-index: 1;
+}
+.first>h4{
+    color: rgb(128, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 4vh;
+    cursor: pointer;
+}
+.game{
+    color:rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 4vh;
+    cursor: pointer;
+}
+.search{
+    width: 273px;
+    height: 31px;
+    margin-left: 224px;
+    margin-top: 22px;
+    color: rgb(128, 128, 128);
+    background-color: black;
+    border: none;
+
+}
+.searchlogo{
+    width: 16px;
+    height: 16px;
+    margin-top: 24px;
+}
+.logo{
+    width: 72px;
+    height: 62px;
+    overflow: hidden;
+    margin-left: 14px;
+  
+}
+.logo img{
+    margin:11px;
+    height: 37px;
+    justify-content: center; 
+    display: flex;
+}
+.clash1{
+    width: 277px;
+    height: 136px;
+    margin-left: 500px;
+    margin-top: 120px;
+    
+}
+.nextpeg2{
+
+    width: 100%;
+    height: 510px;
+    margin-top: 70px;
+    display: flex;
+}
+.phonephoto{
+    width: 45%;
+    height: 305px
+}
+.phonephoto img{
+    width: 147%;
+    height: 390px;
+    margin-left: -251px;
+}
+.clanto{
+  
+    width:503px;
+    height: 264px;
+    margin-top: 83px;
+    margin-left: 95px;
+}
+.headname{
+    color :rgb(7, 8, 8);
+    font-family:fantasy;
+    font-size: 30px;
+    line-height: 51px;
+    
+}
+.nextlain{
+    color: rgb(18, 16, 16);
+    line-height: 25px;
+}
+.app{
+    width: 503px;
+    height: 88px; 
+    display: flex;
+}
+.appstore{
+    width: 121px;
+    height: 39px;
+    margin-top: 18px;
+    margin-left: 19px;
+    cursor: pointer;
+}
+.news{
+    width: 100%;
+    height: 536px;
+}
+.top{
+    width: 100%;
+    height: 80px;
+  
+    display: flex;
+    justify-content: center;
+
+}
+.news{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+} 
+.picher{
+    width: 100%;
+    height: 380px;
+  
+    display: flex;
+}
+.newsimage{
+    width: 41%;
+    height: 380px;
+    margin-left: 111px;
+  
+
+}
+.blue{
+    width: 499px;
+    height: 272px;
+}
+.bluename{
+    
+    width: 499px;
+    height: 25px;
+    margin-top: 17px;
+}
+.bluename>h5{
+    color:rgb(251, 74, 157);
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.bluename1{
+ 
+    width: 499px;
+    height: 25px;
+}
+.bluename1>h5{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    color: rgb(0, 0, 0);
+}
+.secondimg{
+    width: 41%;
+    height: 380px;
+    margin-left: 111px;
+   
+}
+.newsphoto2{
+    width: 500px;
+    height: 272px;
+    margin-left: -75px;
+}
+.textmeet{
+    width: 100%;
+    height: 25px;
+  
+    margin-top: 17px;
+}
+.meetname>h5{
+    color:rgb(251, 74, 157);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 125px;
+}
+.meetname2{
+    height: 25px;
+    width: 100%;
+    margin-top: 13px;
+}
+.meetname2>h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    color: rgb(0, 0, 0);
+}
+.buttondiv{
+    width: 100%;
+    height: 46px;
+    justify-content: center;
+    display: flex;
+}
+.button1{
+    height: 37px;
+    font-size: 11px;
+    color: white;
+    width: 184px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(45, 133, 243);
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+.seetheimg{
+    width: 100%;
+    height: 516px;
+    background-color: burlywood;
+}
+.mainimage{
+    background-image: url(image/forimage.webp);
+    width: 100%;
+    height: 516px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -16vw;
+    
+}
+.mainimage img{
+ width: 763px;
+ height: 387px;
+ margin-top: 76px;
+ margin-left: 740px;
+}
+.rapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.seetext{
+    width: 508px;
+    height: 251px;
+    margin-top: -287px;
+    margin-left: 109px;
+}
+.seetext>h2{
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+}
+.textparagraph{
+    width: 100%;
+    height: 74px;
+    margin-top: 18px;
+}
+.textparagraph>h2{
+    font-size: 13px;
+    color:rgb(255, 255, 255);
+    line-height: 22px;
+    font-family: sans-serif;
+}
+.follow{
+    width: 100%;
+    height: 30px;
+    margin-top: 21px;
+}
+.follow>h4{
+    font-size: 14px;
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+}
+.medialogo{
+    width: 40%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.robo img{
+    width: 25px;
+    height: 25px;
+    margin: 0%;
+    cursor: pointer;
+}
+.youtu img{
+    width: 33px;
+    height: 25px;
+    margin: 0%;
+    cursor: pointer;
+}
+.videoimg{
+    width: 100%;
+    height: 550px;
+}
+.twoimg{
+   width: 90%;
+   height: 328px; 
+   margin-left: 58px;
+   display: flex;
+  
+}
+.firstposi{
+    width: 502px;
+    height: 280px;
+    margin-top: 48px; 
+    margin-left: 39px;
+}
+.firstposi img{
+    width: 502px;
+    height: 280px;
+    cursor: pointer;
+}
+.playbutton{
+    margin-left: 197px;
+    color: white;
+    position: relative;
+    top: -202px;
+    font-size: 125px;
+}
+
+.secposi{
+    width: 502px;
+    height: 328px;
+    margin-left: 30px;
+}
+.secposi img{
+    width: 502px;
+    height: 280px;
+    margin-top: 48px;
+    cursor: pointer;
+}
+.youtube{
+    width: 1036px;
+    height: 90px;
+    margin-left: 97px;
+    display: flex;
+    gap: 29px;
+}
+.youtubeone{
+    width: 50%;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    background-color:white;
+    box-shadow:-1px -1px 2px 0px;
+    cursor: pointer;
+    
+}
+.youtubeone img{
+    width: 81px;
+    height: 18px;
+    margin-right: 43px;
+    margin-top: 35px;
+}
+.youtubeone>h4{
+    font-size: 15px;
+    margin-left: 43px;
+    margin-top: 35px;
+    font-family:sans-serif;
+    color: rgb(45, 133, 243);
+}
+.interested{
+    width: 100%;
+    height: 188px;
+    background-color:#2887f0;
+    display: flex;
+}
+.texthead{
+    width: 560px;
+    height: 188px;
+    margin-left: 105px;
+    padding-top: 45px;
+}
+.textheadname{
+    width: 80%;
+    height: 40px;
+    margin-left: 55px;
+}
+.textheadname>h3{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+}
+.seeallbutton{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.buttonsee{
+   width: 173px;
+   height: 44px;
+   border-radius: 9px;
+   border: none;
+   color:black;
+   font-weight: 700;
+   cursor: pointer;
+}
+.roboimg{
+    width: 350px;
+    height: 188px;
+}
+.roboimg img{
+    width: 263px;
+    height: 255px;
+    margin-top: -66px;
+    margin-left: 84px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+.publicmedia{
+    width: 80%;
+    height: 500px;
+    background-color:black;
+}
+.mediaslogo{
+    width: 100%;
+    height: 111px;
+    display: flex;
+    border-bottom: solid  0.01cm;
+    border-color: rgb(95, 95, 95);
+
+}
+.medialogoone{
+    width: 60%;
+    height: 111px;
+  
+}
+.logotwo{
+    width: 40%;
+    height: 111px;
+    display: flex;
+    justify-content: end;
+    
+}
+.logotwo img{
+    width: 126px;
+    height: 41px;
+    margin-right: 22px;
+    margin-top: 39px;
+    cursor: pointer;
+}
+.followtext{
+    width: 100%;
+    height: 20px;
+    margin-top: 41px;
+}
+.followtext>h4{
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.fulllogo{
+    width: 42%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.youinsta img{
+    width: 25px;
+    height: 21px;
+    cursor: pointer;
+}
+.policy{
+    width: 100%;
+    height: 21px;
+  padding-top: 32px;
+}
+.footertext{
+    width: 79%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footertext>h5{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+}
+.footerend{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+.endtext{
+    width: 80%;
+    height: 100px;
+}
+.endlogo{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.endlogo img{
+    margin: 11px;
+    height: 37px;
+    margin-top: 29px;
+}
+.endtext>h4{
+    color: rgb(128, 128, 128);
+font-size: 14px;
+line-height: 21px;
+}
